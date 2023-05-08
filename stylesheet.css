@@ -1,0 +1,71 @@
+body {
+  background-color: #f5f5f5;
+}
+
+#logo {
+  height: 100px;
+}
+
+#nav {
+  font-family: "Libre Baskerville";
+  position: fixed;
+  width: 1280px;
+  height: 832px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  text-align: left;
+}
+
+#menu-selector {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 100px;
+  padding-bottom: 25px;
+  border-radius: 50%;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: bolder;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+#products-selector {
+  padding-left: 15px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#about-selector {
+  padding-left: 15px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#contact-selector {
+  padding-left: 20px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#content {
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+}
