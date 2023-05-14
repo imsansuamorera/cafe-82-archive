@@ -10,26 +10,42 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="../stylesheet.css" />
     <link rel="icon" type="image/x-icon" href="../img/logo.png" />
     <title>products.</title>
   </head>
   <body>
-    <div id="nav">
-      <a href="../index.html">
-        <img src="../img/logo.png" alt="company-logo" id="logo" />
-      </a>
-      <p id="menu-selector">
-        <a href="../pages/menu.html">MENU.</a>
-      </p>
-      <p id="products-selector">
-        <a href="../pages/products.html">PRODUCTS.</a>
-      </p>
-      <p id="about-selector"><a href="../pages/about.html">ABOUT 82.</a></p>
-      <p id="contact-selector"><a href="../pages/contact.html">CONTACT.</a></p>
-    </div>
-    <div id="content">
-      <h1>OUR PRODUCTS.</h1>
-    </div>
+    <nav class="site-container-nav">
+      <div>
+        <a href="../index.html"
+          ><img
+            src="../img/logo.png"
+            alt="Logo of the company"
+            class="site-logo"
+        /></a>
+      </div>
+      <ul class="site-container-list">
+        <li class="site-container-list-item">
+          <a href="../pages/menu.html">MENU.</a>
+        </li>
+        <li class="site-container-list-item">
+          <a href="../pages/products.html">PRODUCTS.</a>
+        </li>
+        <li class="site-container-list-item">
+          <a href="../pages/about.html">ABOUT.</a>
+        </li>
+        <li class="site-container-list-item">
+          <a href="../pages/contact.html">CONTACT.</a>
+        </li>
+      </ul>
+      <hr id="divider" />
+      <div id="site-container-social">
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </nav>
   </body>
 </html>
