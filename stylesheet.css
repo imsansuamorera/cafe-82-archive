@@ -130,3 +130,26 @@ a:visted {
   filter: none;
   left: 649px;
 }
+
+.parallax-products {
+  background-image: url("./img/the-products.jpg");
+  height: 500px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-products h1 {
+  color: white;
+  position: fixed;
+  left: 50%;
+  font-size: 4em;
+  filter: none;
+  left: 649px;
+}
+
+.site-container-scroll {
+  height: 600px;
+}
