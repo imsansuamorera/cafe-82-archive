@@ -54,6 +54,12 @@ main img {
   padding: 25px;
 }
 
+.site-container-footer {
+  color: #505050;
+  font-size: smaller;
+  margin-top: 220px;
+}
+
 a {
   text-decoration: none;
   color: #222222;
@@ -147,7 +153,35 @@ a:visted {
   left: 50%;
   font-size: 4em;
   filter: none;
-  left: 649px;
+  left: 615px;
+}
+
+.parallax-about {
+  background-image: url("./img/about-us.jpg");
+  height: 500px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-about h1 {
+  color: white;
+  position: fixed;
+  left: 50%;
+  font-size: 4em;
+  filter: none;
+  left: 620px;
+}
+
+.site-container-description {
+  margin-bottom: 25px;
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin-left: 525px;
+  margin-top: 60px;
 }
 
 .site-container-scroll {
